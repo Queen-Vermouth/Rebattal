@@ -1,6 +1,13 @@
 
 > **The method lacks novelty and significant technical contribution. The proposed method is a series of prompts that simply extract keywords from user query based on previous error.**
+
+
+
 > **The proposed method contains some flaws. It does not make sense to regenerate the keyword without any references on the previously retrieved documents. And it is hard to verify the correctness of the answer especially when the model hallucinates heavily.**
+
+
+
+ 
 > **i understand that the paper only supports sparse retrievers, but they might not be the optimal choice in all circumstances. Therefore, it is also important to include dense retrieval or others.**
 
 
