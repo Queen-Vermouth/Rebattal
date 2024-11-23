@@ -1,11 +1,11 @@
 
-> Lack of Comparison to Other Retrieval Methods: The paper focuses only on BM25 for retrieval. Comparing the performance of ITERKEY with many other retrieval methods, such as dense retrieval or neural sparse models like SPLADE, would provide a more comprehensive understanding of its strengths and weaknesses.
+> **Lack of Comparison to Other Retrieval Methods: The paper focuses only on BM25 for retrieval. Comparing the performance of ITERKEY with many other retrieval methods, such as dense retrieval or neural sparse models like SPLADE, would provide a more comprehensive understanding of its strengths and weaknesses.**
 
-> Limited Novelty: While ITERKEY presents an interesting application of LLMs for RAG optimization, its novelty is limited. The core idea of using LLMs for query expansion and answer verification is not new. Several existing works, such as those mentioned in the Related Work section explore similar concepts. ITERKEY primarily distinguishes itself through its iterative process and specific prompt engineering. However, the paper would benefit from a clearer articulation of its unique contributions and a more in-depth comparison with existing iterative retrieval methods.
+> **Limited Novelty: While ITERKEY presents an interesting application of LLMs for RAG optimization, its novelty is limited. The core idea of using LLMs for query expansion and answer verification is not new. Several existing works, such as those mentioned in the Related Work section explore similar concepts. ITERKEY primarily distinguishes itself through its iterative process and specific prompt engineering. However, the paper would benefit from a clearer articulation of its unique contributions and a more in-depth comparison with existing iterative retrieval methods.**
 
-> Computational Cost: ITERKEY's iterative nature introduces additional computational costs compared to non-iterative RAG methods. The authors should discuss the trade-off between accuracy gains and computational cost in more detail.
+> **Computational Cost: ITERKEY's iterative nature introduces additional computational costs compared to non-iterative RAG methods. The authors should discuss the trade-off between accuracy gains and computational cost in more detail.**
 
-> Potential for Underestimation of Results: The evaluation process relies heavily on exact pattern matching for answer verification. This may underestimate the model's performance, as semantically correct answers expressed in different formats might be marked as incorrect. The authors should discuss the limitations of their evaluation methodology and consider alternative evaluation metrics that capture semantic similarity.
+> **Potential for Underestimation of Results: The evaluation process relies heavily on exact pattern matching for answer verification. This may underestimate the model's performance, as semantically correct answers expressed in different formats might be marked as incorrect. The authors should discuss the limitations of their evaluation methodology and consider alternative evaluation metrics that capture semantic similarity.**
 
 
 
