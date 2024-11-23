@@ -1,6 +1,7 @@
 
 > 1. **Lack of Comparison to Other Retrieval Methods:** The paper focuses only on BM25 for retrieval. Comparing the performance of ITERKEY with many other retrieval methods, such as dense retrieval or neural sparse models like SPLADE, would provide a more comprehensive understanding of its strengths and weaknesses.
 >> 他の検索手法との比較の欠如：本論文は検索にBM25のみを焦点を当てています。ITERKEYの性能を、密な検索やSPLADEのようなニューラルスパースモデルなど、他の多くの検索手法と比較することで、その強みと弱みをより包括的に理解することができるでしょう。
+
 要実験
 
 > 2. **Limited Novelty:** While ITERKEY presents an interesting application of LLMs for RAG optimization, its novelty is limited. The core idea of using LLMs for query expansion and answer verification is not new. Several existing works, such as those mentioned in the Related Work section explore similar concepts. ITERKEY primarily distinguishes itself through its iterative process and specific prompt engineering. However, the paper would benefit from a clearer articulation of its unique contributions and a more in-depth comparison with existing iterative retrieval methods.
